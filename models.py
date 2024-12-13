@@ -893,7 +893,6 @@ class Learner(nn.Module):
     def preprocessdata_prompt(self, support, corpus):
         data = deepcopy(support)
         self.model.train()
-        # 添加提示学习
         label_word_freq = corpus.label_word_freq
         label_word_label = corpus.label_word_label
         label_word_tag = corpus.label_word_tag
