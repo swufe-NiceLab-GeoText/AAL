@@ -23,4 +23,3 @@ We provide examples of training and evaluating models in the `scripts` folder. F
 
 	bash scripts/Domain1_1shot.sh
  
-# AAL
